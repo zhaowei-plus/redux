@@ -61,7 +61,7 @@ const store = createStore(reducer);
 console.log(store.getState());
 
 const unsubscribe = store.subscribe(() => {
-  console.log('哈哈哈');
+  console.log('1');
 });
 
 store.dispatch(action);
